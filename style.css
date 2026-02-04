@@ -1,0 +1,17 @@
+.registration-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 15px;
+}
+
+input.is-invalid {
+    border-color: #dc3545;
+}
+
+.progress {
+    height: 6px;
+}
+
+.progress-bar {
+    transition: width 0.3s;
+}
