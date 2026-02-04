@@ -36,7 +36,7 @@ form.addEventListener("submit", function (e) {
     }
 });
 
-/* Password Strength */
+
 document.getElementById("password").addEventListener("input", function () {
     const bar = document.getElementById("strengthBar");
     const val = this.value;
@@ -53,7 +53,7 @@ document.getElementById("password").addEventListener("input", function () {
     }
 });
 
-/* Helpers */
+
 function showError(message, element) {
     element.innerText = message;
 }
@@ -63,7 +63,7 @@ function clearErrors() {
     document.querySelectorAll("input").forEach(i => i.classList.remove("is-invalid"));
 }
 
-/* Field Functions */
+
 function nameInput() {
     const el = document.getElementById("name");
     if (el.value.trim() === "") {
@@ -115,3 +115,4 @@ function phoneInput() {
     }
     return true;
 }
+
